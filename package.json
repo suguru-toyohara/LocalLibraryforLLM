@@ -1,0 +1,25 @@
+{
+  "name": "todo",
+  "version": "0.1.0",
+  "description": "todo recording",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "todo": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x ./build/index.js",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}
