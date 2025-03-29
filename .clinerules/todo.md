@@ -6,5 +6,12 @@
     - todoを追加する機能と、todoを完了する機能の二つのみを作成すること
   - [x] testする
     - [x] todoサーバが表示されていることを確認
-
-
+- [ ] backendサーバを作成する
+  - [x] backendフォルダを作成する
+  - [x] wrangler+Worker基本コンポーネントとかでinitする
+  - [x] honoをインストールする
+  - [ ] 設計を考える
+    - [x] 必要なデータ設計
+      - [x] 考えるべきことをまとめる
+    - [ ] LLM Prompt Logging
+    - [ ] mastraとの統合について考える
